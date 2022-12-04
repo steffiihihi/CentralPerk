@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Central Perk</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--Linking CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Linking Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- For the Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Mrs+Sheppards&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Mrs+Sheppards&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Mrs+Sheppards&family=Noto+Serif+Khojki&display=swap" rel="stylesheet">
+
+    <!-- Link for Icons -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg px-1" style="background-color:rgba(45, 25, 3, 0.984)">
+        <div class="container-fluid" >
+          <a class="navbar-brand mt-3" href="#"><h1 style="font-size:40px; color:rgb(232, 189, 50);"> CentralPerk<span></h1></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5" text-center>
+              <li class="nav-item">
+                <a class="nav-link active " style="color:rgb(217, 171, 79)"aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  style="color:rgb(217, 171, 79)" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle "  style="color:rgb(217, 171, 79)" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" style="background-color: rgba(127, 79, 15, 0.605);" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#services" style="color:rgb(217, 171, 79)">Beverages</a></li>
+                  <li><a class="dropdown-item" href="#services" style="color:rgb(217, 171, 79)">Croissants</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item " href="#services" style="color:rgb(217, 171, 79)">Other Items</a></li>
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link "  style="color:rgb(217, 171, 79)" href="#contact">Contact</a>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+    <!-- SLIDER -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="pics_paradise/img33.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5 style="font-size:larger">Soulful Croissants!</h5>
+              <!-- <p>Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics_paradise/1st.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5>Dainty Dollops!</h5>
+              <!-- <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics_paradise/img333.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5>IceCreams tasting like- Love!></h5>
+              <!-- <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </header>
+
+
+  <!-- Our Services -->
+  <section class="Our Services py-5 text-center" id="services" style="background-color:rgba(107, 59, 6, 0.548)">
+    <div class="text-center my-5" data-aos="fade-right" data-aos-offset="200">
+      <h1 style="font-size:50px" >Menu</h1>
+      <hr class="w-25 m-auto">
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="fade-right" data-aos-offset="200">
+        <div class="card mt-5 mx-auto" style="width: 18rem ;">
+          <div class="card-body" style="background-color: rgba(234, 190, 125, 0.338);">
+            <h5 class="card-title"  style="text-decoration:underline;">Beverages</h5>
+            <img src="pics_paradise/a1.jpg" class="img-fluid img-thumbnail rounded-circle border border-info m-3">
+            <p class="card-text">Freshly steamed milk,vanilla-flavored syrups, caramel drizzles for an 'Oh-So-Sweet!' finish.</p>
+            <a href="#" class="card-link text-dark">Explore</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+        <div class="card mt-5 mx-auto" style="width: 18rem;">
+          <div class="card-body " style="background-color: rgb(234, 190, 125);">
+            <h5 class="card-title text-white" style="text-decoration: underline;">Croissants</h5>
+            <img src="pics_paradise/a2.jpg" class="img-fluid img-thumbnail rounded-circle border border-info m-3">
+            <p class="card-text text-white">That delicate exterior and interior of swirled pastry air are perfect anytime, anywhere.</p>
+            <a href="#" class="card-link text-white">Explore</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="fade-left" data-aos-offset="200">
+        <div class="card mt-5 mx-auto" style="width: 18rem;">
+          <div class="card-body" style="background-color: rgba(234, 190, 125, 0.338);">
+            <h5 class="card-title" style="text-decoration: underline;">CheeseCakes</h5>
+            <img src="pics_paradise/a3.jpg" class="img-fluid img-thumbnail rounded-circle border border-info m-3">
+              <p class="card-text ">Treat your taste buds good, treat them with the goodness of cheesecake.</p>
+            <a href="#" class="card-link text-dark">Explore</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="fade-right" data-aos-offset="200">
+        <div class="card mt-5 mx-auto" style="width: 18rem;">
+          <div class="card-body " style="background-color: rgb(234, 190, 125);">
+            <h5 class="card-title text-white" style="text-decoration: underline;">Pastries</h5>
+            <img src="pics_paradise/a4.jpg" class="img-fluid img-thumbnail rounded-circle border border-info m-3">
+            <p class="card-text text-white">Treat yourself with a ready-to-eat slice of heaven, weekend carbs don't count!</p>
+            <a href="#" class="card-link text-white">Explore</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+        <div class="card mt-5 mx-auto" style="width: 18rem;">
+          <div class="card-body" style="background-color: rgba(234, 190, 125, 0.338);">
+            <h5 class="card-title" style="text-decoration: underline;">Donuts</h5>
+            <img src="pics_paradise/a5.jpg" class="img-fluid img-thumbnail rounded-circle border border-info m-3">
+            <p class="card-text">Humans cannot live on coffee alone, so donuts were invented! Grab your Coffee a F.R.I.E.N.D.</p>
+            <a href="#" class="card-link text-dark">Explore</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12 " data-aos="fade-left" data-aos-offset="200">
+        <div class="card mt-5 mx-auto" style="width: 18rem;">
+          <div class="card-body " style="background-color: rgb(234, 190, 125);">
+            <h5 class="card-title text-white" style="text-decoration: underline;">IceCream</h5>
+            <img src="pics_paradise/a6.jpg" class="img-fluid img-thumbnail rounded-circle border border-info m-3">
+            <p class="card-text text-white">You can't buy happiness, but you can buy ice-cream, and that is pretty much the same thing!</p>
+            <a href="#" class="card-link text-white">Explore</a> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="p-5" style="background-color:rgba(214, 185, 147, 0.692)">
+      <div class="text-center " >
+        <h1 data-aos="fade-up" style="font-size:50px;" data-aos-offset="200">About Us <span class="text-primary "></span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 my-5" data-aos="zoom-out" data-aos-offset="200">
+          <h1>Who are We??</h1>
+
+          <p class="p-2">Central Perk has long been seen in the famous sitcom F.R.I.E.N.D.S as the go-to cafe to get a great cup of coffee and quick bites and share moments with friends. Central Perk has now come to life with a new collection of artisanal coffees, dainty dollobs, creamy cheesecakes, buttery croissants, hearty donuts and wholesome ice-creams. The cafe delivers a rich, full taste with every portion.<br><br><b>Could it BE more amazing!!</b><br>We don’t think so.<br><br>
+          So, give yourself a treat and grab a spot on the couch. You’re among friends.</p>
+          <button type="button" class="btn  btn-light mb-5" style="background-color: rgba(181, 118, 23, 0.169);">More about us</button>
+
+        <!-- ACCORDIAN -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item" data-aos="fade-up" data-aos-offset="200">
+            <h2 class="accordion-header"  id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background-color: rgba(134, 91, 26, 0.416);">
+                Our Branches
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="background-color: rgba(192, 128, 31, 0.169);">
+                 We serve at--<br> New York City, California, Florida, Texas, Washington,Colorado, Hawaii, Massachusetts, Virginia, Arazona, Michigan, Georgia, Ohio.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: rgba(134, 91, 26, 0.416);">
+                Our Origin
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="background-color: rgba(192, 128, 31, 0.169);">
+                The first Central Perk cafe was established in 2001 in the heart of New York City. After that many branches were opened in the tri-state area, followed by many other states across America!
+              </div>
+            </div>
+          </div>
+        </div>  
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 m-auto text-lg-end text-center" data-aos="zoom-out" data-aos-offset="200">
+            <img class="img-fluid img-thumbnail" src="pics_paradise/cp2.jpg">
+        </div>
+      </div>
+
+  </section>
+
+
+  <!-- Contact -->
+  <section class="Contact " style="background-color:rgba(153, 116, 67, 0.566)" id="contact">
+    <div class="container">
+      <div class="text-center py-5">
+        <h1>Become a <span style="font-family:Noto Serif Khojki">F.R.I.E.N.D...</span></h1>
+        <hr class="w-25 m-auto">
+        <br>
+        <hp>Register for Membership</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-12 col-md-6 col-sm-12"data-aos="fade-up-right" data-aos-offset="200">
+          <form class="row g-3">
+            <label for="inputUsername" class="form-label" style="font-size:larger">Username</label>
+            <input type="text" placeholder="Steffi Sharma" class="form-control mb-5" style="background-color:rgba(225, 197, 160, 0.715);" id="inputUsername">
+          </form>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label" style="font-size:large">Email</label>
+              <input type="email" placeholder="steffi@gmail.com" class="form-control" style="background-color:rgba(225, 197, 160, 0.715);"  id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label" style="font-size:large">Password</label>
+              <input type="password" placeholder="*******" style="background-color:rgba(225, 197, 160, 0.715);"  class="form-control" id="inputPassword4">
+            </div>
+            
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12" style="padding-top:15px;">
+              <button type="submit" class="btn btn-secondary " style="background-color:rgba(159, 131, 94, 0.361)">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 col-12 col-md-6 col-sm-12 m-auto text-lg-rigth text-center p-4"data-aos="fade-up-left" data-aos-offset="200">
+            <img src="pics_paradise/last3.jpg" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid text-center p-2 fs-5" style="background-color:rgba(45, 25, 3, 0.984); color:rgb(232, 189, 50); ">
+    All Rights Reserved
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
